@@ -1,17 +1,16 @@
 Summary:	Polish dictionary for aspell
 Summary(pl):	Polski s³ownik dla aspella
 Name:		aspell-pl
-Version:	0.0
-%define	subv	3
-Release:	2
+Version:	0.50
+%define	subv	2
+Release:	1
 Epoch:		1
-License:	GPL (?)
+License:	GPL (unknown)
 Group:		Applications/Text
-Source0:	http://aspell.sourceforge.net/%{name}-%{version}-%{subv}.tar.bz2
-URL:		http://aspell.sourceforge.net/
-BuildRequires:	aspell
-BuildRequires:  pspell-devel
-Requires:	aspell
+Source0:	ftp://ftp.gnu.org/gnu/aspell/%{name}-%{version}-%{subv}.tar.bz2
+URL:		http://aspell..net/
+BuildRequires:	aspell >= 0.50.0
+Requires:	aspell >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -43,4 +42,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README Copyright
 %{_libdir}/aspell/*
 %{_datadir}/aspell/*
-%{_datadir}/pspell/*
