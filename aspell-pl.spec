@@ -8,7 +8,7 @@ Epoch:		1
 License:	GPL (unknown)
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/%{name}-%{version}-%{subv}.tar.bz2
-URL:		http://aspell..net/
+URL:		http://aspell.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
