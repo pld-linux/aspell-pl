@@ -9,6 +9,7 @@ Group:		Applications/Text
 Source0:	http://aspell.sourceforge.net/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell
+BuildRequires:  pspell-devel
 Requires:	aspell
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
