@@ -12,7 +12,7 @@ Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/pl/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.50.0
 Requires:	aspell >= 3:0.50.0
-Requires:	aspell <  3:0.60.0
+Requires:	aspell <  2:0.60.0
 Obsoletes:	aspell-pl-alt
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
