@@ -3,7 +3,7 @@ Summary(pl):	Polski s³ownik dla aspella
 Name:		aspell-pl
 Version:	0.50
 %define	subv	2
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL (unknown)
 Group:		Applications/Text
@@ -12,6 +12,7 @@ Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/pl/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= %{version}
+Obsoletes:	aspell-pl-alt
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
