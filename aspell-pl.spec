@@ -1,5 +1,5 @@
 Summary:	Polish dictionary for aspell
-Summary(pl):	Polski s≥ownik dla aspella
+Summary(pl.UTF-8):   Polski s≈Çownik dla aspella
 Name:		aspell-pl
 Version:	0.51
 %define	subv	0
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Polish dictionary (i.e. word list) for aspell.
 
-%description -l pl
-Polski s≥ownik (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+Polski s≈Çownik (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
