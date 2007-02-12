@@ -1,5 +1,5 @@
 Summary:	Polish dictionary for aspell
-Summary(pl.UTF-8):   Polski słownik dla aspella
+Summary(pl.UTF-8):	Polski słownik dla aspella
 Name:		aspell-pl
 Version:	0.51
 %define	subv	0
