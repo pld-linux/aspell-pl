@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Polski słownik dla aspella
 Name:		aspell-pl
 Version:	0.51
 %define	subv	0
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL (unknown)
 Group:		Applications/Text
@@ -12,7 +12,7 @@ Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/pl/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 2:0.50.0
 Requires:	aspell >= 2:0.50.0
-Obsoletes:	aspell-pl-alt
+Conflicts:	aspell-pl-alt
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
