@@ -1,17 +1,17 @@
 Summary:	Polish dictionary for aspell
 Summary(pl.UTF-8):	Polski słownik dla aspella
 Name:		aspell-pl
-Version:	0.51
+Version:	6.0_20061121
 %define	subv	0
-Release:	2
+Release:	1
 Epoch:		1
 License:	GPL (unknown)
 Group:		Applications/Text
-Source0:	http://ftp.gnu.org/gnu/aspell/dict/pl/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	5435be1c9c39326a02e2798d8b4d257b
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/pl/aspell6-pl-%{version}-%{subv}.tar.bz2
+# Source0-md5:	3139a69a1bd9ccb1d853d30aa024fc2b
 URL:		http://aspell.net/
-BuildRequires:	aspell >= 2:0.50.0
-Requires:	aspell >= 2:0.50.0
+BuildRequires:	aspell >= 3:0.60.0
+Requires:	aspell >= 3:0.60.0
 Conflicts:	aspell-pl-alt
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -22,7 +22,7 @@ Polish dictionary (i.e. word list) for aspell.
 Polski słownik (lista słów) dla aspella.
 
 %prep
-%setup -q -n %{name}-%{version}-%{subv}
+%setup -q -n aspell6-pl-%{version}-%{subv}
 
 %build
 # note: configure is not autoconf-generated
