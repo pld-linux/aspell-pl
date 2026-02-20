@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Polski słownik dla aspella
 Name:		aspell-pl
 Version:	6.0_20061121
 %define	subv	0
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL (unknown)
 Group:		Applications/Text
