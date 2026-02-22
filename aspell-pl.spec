@@ -13,6 +13,7 @@ URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60.0
 Requires:	aspell >= 3:0.60.0
 Conflicts:	aspell-pl-alt
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -42,5 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README Copyright
-%{_libdir}/aspell/*
+%{_prefix}/lib/aspell/*
 %{_datadir}/aspell/*
